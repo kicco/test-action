@@ -1,5 +1,0 @@
-FROM alpine:3.15
-# from gh docs
-# do not use WORKDIR/
-COPY entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
